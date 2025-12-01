@@ -1,5 +1,4 @@
-# AOC-2025
-Advent of code 2025.
+# [Advent of Code 2025](https://adventofcode.com/)
 
 |**Day**|**Puzzle 1**|**Puzzle 2**|
 |---------|--------------|--------------|
