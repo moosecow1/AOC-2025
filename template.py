@@ -2,10 +2,10 @@ import time
 
 # Needs "test.txt" and "input.txt"
 # Change "test_answer"
-test_answer = 13
+test_answer = None
 
 def solve(input: str):
-	return 13
+	pass
 
 def main():
 	with open("test.txt", "r", encoding="utf-8") as f:
