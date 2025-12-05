@@ -1,15 +1,17 @@
 import time
 
 # Needs "test.txt" and "input.txt"
+# Change "test_answer"
+test_answer = 13
 
 def solve(input: str):
-	pass
+	return 13
 
 def main():
 	with open("test.txt", "r", encoding="utf-8") as f:
 		answer = solve(f.read())
 
-		assert answer == 13
+		assert answer == test_answer
 
 	with open("input.txt", "r", encoding="utf-8") as f:
 		c = f.read()
@@ -18,7 +20,7 @@ def main():
 		
 		answer = solve(c)
 
-		print(f"Answer: {answer}\nTook: {(time.time_ns() - start) / 1000000}")
+		print(f"Answer: {answer}\nTook: {(time.time_ns() - start) / 1000000}ms")
 
 if __name__ == "__main__":
 	main()
