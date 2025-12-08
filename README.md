@@ -8,3 +8,4 @@ My solutions to Advent of Code 2025
 |3|✅|
 |4|✅|
 |5|✅|
+|6|✅|
